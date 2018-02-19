@@ -14,13 +14,19 @@ None yet.
 
 ## Additional Services (Background Workers, APIs, etc)
 
+None yet.
+
 ## Running This Project For the First Time
 
 ```bash
   $ git clone git@github.com:no-mayo/skeleton-html-css-js.git
   $ cd skeleton-html-css-js
+  $ npm install # to install JS dependencies from package.json
   $ npm run watch # so webpack will watch the sass & js files
+  $ http-server # in another terminal tab, to run a basic local server
 ```
+
+You can then visit `localhost:8080` in your browser.
 
 ## Running The Test Suite
 
