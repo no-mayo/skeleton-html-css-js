@@ -37,7 +37,7 @@ None yet.
 As a client-side-only, "single page" application, this project can be deployed as static HTML, CSS and JS to a free service like GitHub Pages or Netlify.
 
 **Important:**
-Only the contents of the `/dist` folder need to be deployed, if you don't want to have to navigate to `yoursite.com/dist` when viewing the website.
+Only the contents of the `/dist` folder need to be deployed, if you don't want to have to navigate to `http://yoursite.com/dist` when viewing the website.
 
 To push the contents of the `/dist` folder to a `gh-pages` branch in your GitHub repository:
 
