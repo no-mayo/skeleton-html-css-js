@@ -38,7 +38,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin("./dist/style.css"),
+    new ExtractTextPlugin("./dist/style.[chunkhash].css"),
     new webpack.LoaderOptionsPlugin({
       minimize: true,
       options: {
