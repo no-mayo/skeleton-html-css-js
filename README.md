@@ -36,11 +36,14 @@ None yet.
 
 As a client-side-only, "single page" application, this project can be deployed as static HTML, CSS and JS to a free service like GitHub Pages or Netlify.
 
-For now, you can push your changes from the master branch into the gh-pages branch to deploy them there:
+**Important:**
+Only the contents of the `/dist` folder need to be deployed, if you don't want to have to navigate to `yoursite.com/dist` when viewing the website.
 
-```bash
-  git push origin master:gh-pages
-```
+To push the contents of the `/dist` folder to a `gh-pages` branch in your GitHub repository:
+
+1. Make sure the `/dist` folder is not in your `.gitignore` file
+2. `git add dist && git commit -m "Initial dist subtree commit"`
+3. Use a subtree push: `git subtree push --prefix dist origin gh-pages`
 
 ## Deployment: Production
 
